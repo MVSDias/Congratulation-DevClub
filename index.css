@@ -109,20 +109,18 @@ button:active {
 }
 
 @media screen and (max-width: 900px){
-    main {
-        display: table;
-    }
+    
 
     header {
         margin: 0;
     }
 
     img {
-        display: table-footer-group;
-        margin: 75px 39px 22px 39px;
-        width: 312px;
-        height: 288px;
-        padding-bottom: 30px;
+        display: block;
+        margin: auto auto;
+        width: 70% ;
+        padding-top: 100px;
+       
 
     }
 
@@ -136,7 +134,9 @@ button:active {
     }
     
     button {
-        margin: 26px 15px 0 284px;
+        display: block;
+        margin: auto auto;
+        margin-top: 30px;
         width: 91px;
         height: 31px;
         border-radius: 6px;
@@ -145,26 +145,29 @@ button:active {
     }
 
     h1 {
-        width: 278px;
+        width: auto;
         text-align: center;
-        font-size: 30px;
-        line-height: 30px; /* 100% */
+        font-size: 8vw;
+        line-height: 1em; /* 100% */
         letter-spacing: 0.596px;
-        margin: 100px 55px 0 57px;
+        margin: 70px 55px 0 57px;
 
     }
 
     p {
-        width: 304px; 
+        width: 450px; 
         text-align: center;
         font-size: 18px;
         line-height: 33px; /* 183.333% */
         letter-spacing: 0.5px;
-        margin: 20px 43px;
+        margin: auto auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
 
     }
     .link-learn-more {
         display: block;
+       text-align: center;
         color: #6FBF44;
         font-size: 18px;
         letter-spacing: 1px;
@@ -172,6 +175,22 @@ button:active {
     }
 
     
+}
+
+@media screen and (max-width: 451px){
+
+    p {
+        width: 350px; 
+        text-align: justify;
+        font-size: 18px;
+        line-height: 33px; /* 183.333% */
+        letter-spacing: 0.5px;
+        margin: auto auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    
+}
+
 }
 
 
